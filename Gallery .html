@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Sirwintersparta</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://your-cdn-link/gallery-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background: black;
+      padding: 15px;
+      text-align: center;
+    }
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: gold;
+    }
+    header nav a:hover {
+      color: orange;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .item {
+      background: rgba(0,0,0,0.7);
+      border-radius: 15px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .item img,
+    .item video {
+      width: 100%;
+      border-radius: 12px;
+      max-height: 220px;
+      object-fit: cover;
+    }
+
+    .caption {
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: gold;
+    }
+
+    footer {
+      background: black;
+      color: gold;
+      padding: 15px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="packages.html">Packages</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Our Gallery</h1>
+    <div class="grid">
+      <!-- Image placeholders -->
+      <div class="item">
+        <img src="https://via.placeholder.com/400x220?text=Matatu+Vibe" alt="Matatu vibe">
+        <p class="caption">Matatu culture shot</p>
+      </div>
+
+      <div class="item">
+        <img src="https://via.placeholder.com/400x220?text=Road+Trip" alt="Road trip">
+        <p class="caption">Road trip adventure</p>
+      </div>
+
+      <!-- Video placeholder -->
+      <div class="item">
+        <video controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+        <p class="caption">Tour highlight video</p>
+      </div>
+
+      <!-- More placeholders -->
+      <div class="item">
+        <img src="https://via.placeholder.com/400x220?text=Wildlife" alt="Wildlife">
+        <p class="caption">Wildlife capture</p>
+      </div>
+
+      <div class="item">
+        <video controls>
+          <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        </video>
+        <p class="caption">Matatu ride clip</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <footer>
+    <div class="footer-links">
+      <p>Follow Us:</p>
+      <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/sirwintersparta?igsh=MXE1dHVwZHZ1d3g1OA==" target="_blank">Instagram</a> |
+      <a href="https://x.com/sirwintersparta?s=09" target="_blank">Twitter</a> |
+      <a href="https://www.tiktok.com/@sirwintersparta?_t=ZM-8zP9eENfIGe&_r=1" target="_blank">TikTok</a> |
+      <a href="https://pin.it/1aoHDrz2s" target="_blank">Pinterest</a>
+    </div>
+
+    <div class="footer-stores">
+      <p>Our Stores:</p>
+      <a href="https://dgg6rv-2p.myshopify.com" target="_blank">Shopify</a> |
+      <a href="https://payhip.com/Sirwintersparta-payhip" target="_blank">Payhip</a> |
+      <a href="https://wa.me/254725358159" target="_blank">WhatsApp Store</a> |
+      <a href="https://beacons.ai/signup?c=sirwintersparta" target="_blank">Beacons</a>
+    </div>
+
+    <div class="footer-contact">
+      <p>Email: iyusuf35@yahoo.com</p>
+      <p>Mpesa lipa na poch Till: 0725358159 | PayPal Merchant ID: LGK2QMM67ZZNS</p>
+      <p>Phone contacts: +254 700 160161/+254 725358159</p>
+     </div>
+    </footer>
+</body>
+</html>

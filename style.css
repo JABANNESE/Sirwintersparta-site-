@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #111;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #000; /* Black background */
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: #FFD700; /* Yellow (Gold) */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 8px #FFD700, 0 0 12px #FFA500; /* Glitter effect */
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff; /* White on hover */
+  text-shadow: 0 0 12px #FFD700, 0 0 20px #FFA500, 0 0 30px #FF4500;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #FFD700;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 30px;
+  text-shadow: 0 0 8px #FFD700, 0 0 12px #FFA500;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-logo {
+  max-width: 200px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: orange;
+  color: #000;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #ff6f00;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* Content Sections */
+.section-box {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 40px 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+/* Footer */
+footer {
+  background: rgba(0,0,0,0.95);
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

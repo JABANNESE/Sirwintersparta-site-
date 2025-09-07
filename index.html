@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SirWinterSparta</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Temporary CSS to fix display issues -->
+  <style>
+    /* Reset and basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Horizontal Navbar */
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 10px 0;
+    }
+    
+    .navbar ul li {
+      margin: 0 2px;
+    }
+    
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: all 0.3s;
+      font-size: 14px;
+    }
+    
+    .navbar ul li a:hover {
+      background-color: #555;
+    }
+    
+    /* Hero Section with Packages Background and Glow Effect */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                  url('assets/images/Packages-bg.jpg') center/cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    
+    .hero-logo-container {
+      margin-bottom: 30px;
+    }
+    
+    .hero-logo {
+      max-width: 200px;
+      height: auto;
+    }
+    
+    .hero-content h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 20px rgba(255,255,255,0.5), 0 0 40px rgba(0,123,255,0.3);
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+    
+    /* Glowing animation */
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 20px rgba(255,255,255,0.5), 0 0 40px rgba(0,123,255,0.3);
+      }
+      to {
+        text-shadow: 0 0 25px rgba(255,255,255,0.8), 0 0 50px rgba(0,123,255,0.6);
+      }
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s;
+      box-shadow: 0 0 15px rgba(0,123,255,0.4);
+    }
+    
+    .btn:hover {
+      background-color: #0056b3;
+      box-shadow: 0 0 25px rgba(0,123,255,0.8);
+      transform: translateY(-2px);
+    }
+    
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .footer-links, .footer-stores, .footer-contact {
+      margin: 20px 0;
+    }
+    
+    .footer-links a, .footer-stores a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    .footer-links a:hover, .footer-stores a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+  <header>
+    
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Logo overlay -->
+    <div class="hero-logo-container">
+      <img src="assets/images/logo.png" alt="Sirwintersparta Logo" class="hero-logo">
+    </div>
+
+    <!-- Hero text -->
+    <div class="hero-content">
+      <h1>Where Roads Meet Cultures</h1>
+      <p>Matatu Vibes • Tours • Stories</p>
+      <a href="gallery.html" class="btn">Enter Gallery</a>
+    </div>
+  </section>
+ <!-- Footer -->
+    <footer>
+    <div class="footer-links">
+      <p>Follow Us:</p>
+      <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/sirwintersparta?igsh=MXE1dHVwZHZ1d3g1OA==" target="_blank">Instagram</a> |
+      <a href="https://x.com/sirwintersparta?s=09" target="_blank">Twitter</a> |
+      <a href="https://www.tiktok.com/@sirwintersparta?_t=ZM-8zP9eENfIGe&_r=1" target="_blank">TikTok</a> |
+      <a href="https://pin.it/1aoHDrz2s" target="_blank">Pinterest</a>
+    </div>
+
+    <div class="footer-stores">
+      <p>Our Stores:</p>
+      <a href="https://dgg6rv-2p.myshopify.com" target="_blank">Shopify</a> |
+      <a href="https://payhip.com/Sirwintersparta-payhip" target="_blank">Payhip</a> |
+      <a href="https://wa.me/254725358159" target="_blank">WhatsApp Store</a> |
+      <a href="https://beacons.ai/signup?c=sirwintersparta" target="_blank">Beacons</a>
+    </div>
+
+    <div class="footer-contact">
+      <p>Email: iyusuf35@yahoo.com</p>
+      <p>Mpesa lipa na poch Till: 0725358159 | PayPal Merchant ID: LGK2QMM67ZZNS</p>
+      <p>Phone contacts: +254 700 160161/+254 725358159</p>
+     </div>
+    </footer>
+  <script>
+</script>
+ </body>
+</html>

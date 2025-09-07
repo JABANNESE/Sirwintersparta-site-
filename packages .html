@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages - SirWinterSparta</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* Navbar Styling */
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #000;
+      padding: 12px 0;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      text-shadow: 0 0 5px yellow, 0 0 10px #ff0;
+    }
+    .navbar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Background */
+    .hero {
+      min-height: 60vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                  url('assets/images/Packages-bg.jpg') center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+
+    /* Packages Grid */
+    .packages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      padding: 50px 20px;
+    }
+
+    .package-card {
+      background: #111;
+      color: #eee;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+    }
+
+    .package-card h2 {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: gold;
+      color: #000;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      background: #ffcc00;
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      color: #eee;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a {
+      color: gold;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Our Travel Packages</h1>
+    <p>Choose your adventure. Book instantly via WhatsApp.</p>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="packages">
+    <div class="package-card">
+      <h2>Matatu Culture Tour</h2>
+      <p>Experience Nairobi’s iconic matatu rides and street art.</p>
+      <a href="https://wa.me/254700160161?text=Hello%20SirWinterSparta!%20I%20want%20to%20book%20the%20Matatu%20Culture%20Tour." class="btn">Book Now</a>
+    </div>
+
+    <div class="package-card">
+      <h2>Safari Adventure</h2>
+      <p>Explore Kenya’s wildlife with a guided safari trip.</p>
+      <a href="https://wa.me/254700160161?text=Hello%20SirWinterSparta!%20I%20want%20to%20book%20the%20Safari%20Adventure." class="btn">Book Now</a>
+    </div>
+
+    <div class="package-card">
+      <h2>Road Trip Experience</h2>
+      <p>Unforgettable road trip vibes across Kenya’s landscapes.</p>
+      <a href="https://wa.me/254700160161?text=Hello%20SirWinterSparta!%20I%20want%20to%20book%20the%20Road%20Trip%20Experience." class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+     <!-- Footer -->
+    <footer>
+    <div class="footer-links">
+      <p>Follow Us:</p>
+      <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/sirwintersparta?igsh=MXE1dHVwZHZ1d3g1OA==" target="_blank">Instagram</a> |
+      <a href="https://x.com/sirwintersparta?s=09" target="_blank">Twitter</a> |
+      <a href="https://www.tiktok.com/@sirwintersparta?_t=ZM-8zP9eENfIGe&_r=1" target="_blank">TikTok</a> |
+      <a href="https://pin.it/1aoHDrz2s" target="_blank">Pinterest</a>
+    </div>
+
+    <div class="footer-stores">
+      <p>Our Stores:</p>
+      <a href="https://dgg6rv-2p.myshopify.com" target="_blank">Shopify</a> |
+      <a href="https://payhip.com/Sirwintersparta-payhip" target="_blank">Payhip</a> |
+      <a href="https://wa.me/254725358159" target="_blank">WhatsApp Store</a> |
+      <a href="https://beacons.ai/signup?c=sirwintersparta" target="_blank">Beacons</a>
+    </div>
+
+    <div class="footer-contact">
+      <p>Email: iyusuf35@yahoo.com</p>
+      <p>Mpesa lipa na poch Till: 0725358159 | PayPal Merchant ID: LGK2QMM67ZZNS</p>
+      <p>Phone contacts: +254 700 160161/+254 725358159</p>
+     </div>
+    </footer>
+
+</body>
+</html>
