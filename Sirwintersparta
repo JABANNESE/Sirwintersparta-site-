@@ -1,0 +1,22 @@
+sirwintersparta/
+│
+├── index.html
+├── about.html
+├── packages.html
+├── gallery.html
+├── blog.html
+├── contact.html
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       ├── logo.png
+│       ├── Gallery-bg.jpg
+│       ├── Packages-bg.jpg
+│       ├── About-bg.jpg
+│       └── other-images-here.jpg
+│
+└── .gitignore
